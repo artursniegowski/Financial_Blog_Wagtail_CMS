@@ -7,6 +7,7 @@ On the main page of the blog, the user has an overview of all the posts listed c
 Each post also has a detailed view where the whole content is shown with additional information like categories, tags, author, date posted, main content of the post, and gallery.
 For every post, the user can add tags and customise categories.
 The user also has the option of choosing a specific tag and displaying all the posts on the blog related to that specific tag. Categories and profiles need to be edited or created before they can be connected to a specific post or article.
+On the settings site there is also configuration prepared for linking the blog website with other social media websites. Currently active are Facebook, Twitter, and Instagram, but this can be easily added with the use of the added app_site_settings where all the social media links are configured.
 The focus of this website is on the content management of a financial blog, which can be easily edited from the admin site provided by Wagtail.</br>
 
 ---
@@ -65,18 +66,22 @@ http://localhost:8000/tags/?tag=invest</br>
 
 ![Screenshot](docs/img/Home.png)
 </br>
+---
 
 2. Main blog view:
 </br>
 
 ![Screenshot](docs/img/Blog_main_view.png)
 </br>
+---
 
 3. Detail post view:
 </br>
+---
 
 ![Screenshot](docs/img/Post_detail_view.png)
 </br>
+---
 
 4. Tag specific view:
 </br>
