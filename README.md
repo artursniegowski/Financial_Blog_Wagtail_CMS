@@ -80,7 +80,6 @@ http://localhost:8000/tags/?tag=invest</br>
 3. Detail post view:
 </br>
 
----
 
 ![Screenshot](docs/img/Post_detail_view.png)
 </br>
