@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags %}
+
+{% block body_class %}template-blogtagindexpage{% endblock %}
+
+{% block extra_css %}{% endblock extra_css %}
+
+{% block content %}
+
+    {% if request.GET.tag %}
+        <h4 class="text-lg font-medium text-slate-600 m-2 p-3">Showing pages tagged "{{ request.GET.tag }}"</h4>
+    {% endif %}
+
+    <div class="ml-2 p-3">
+        {% for blogpage in blogpages %}
+            <div class="flex flex-col mt-6">
+                <div class="flex flex-row">
+                    <a class="text-blue-600 hover:underline text-sm font-medium" href="{% pageurl blogpage %}">
+                        {{ blogpage.title }}
+                    </a>
+                </div>
+                <div class="flex flex-row">
+                    <div class="text-xs text-slate-500">
+                        Revised: {{ blogpage.latest_revision_created_at }}
+                    </div>
+                </div>
+                <div class="flex flex-row">
+                    <div class="text-xs text-slate-500">
+                        By {{ blogpage.author.username }}
+                    </div>
+                </div>
+            </div>
+        {% empty %}
+            No pages found with that tag.
+        {% endfor %}
+    </div>
+{% endblock content %}
