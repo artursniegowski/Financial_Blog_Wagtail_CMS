@@ -66,6 +66,7 @@ http://localhost:8000/tags/?tag=invest</br>
 
 ![Screenshot](docs/img/Home.png)
 </br>
+
 ---
 
 2. Main blog view:
@@ -73,14 +74,17 @@ http://localhost:8000/tags/?tag=invest</br>
 
 ![Screenshot](docs/img/Blog_main_view.png)
 </br>
+
 ---
 
 3. Detail post view:
 </br>
+
 ---
 
 ![Screenshot](docs/img/Post_detail_view.png)
 </br>
+
 ---
 
 4. Tag specific view:
