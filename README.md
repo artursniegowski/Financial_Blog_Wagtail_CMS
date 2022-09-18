@@ -12,6 +12,7 @@ The focus of this website is on the content management of a financial blog, whic
 
 ---
 
+
 <br>
 In order to run the website: <br>
 1. Change the name of .env.example to .env and add your DJANGO_SECRET_KEY for your website. </br>
